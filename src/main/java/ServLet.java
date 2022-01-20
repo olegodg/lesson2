@@ -31,6 +31,5 @@ public class ServLet extends HttpServlet{
             products.stream().forEach(p->out.printf("<html><body><h1>" + p.getId() + ". " +
                     p.getTitle() + " - " + p.getCost() + "</h1></body></html>"));
             out.close();
-            ////
         }
     }
