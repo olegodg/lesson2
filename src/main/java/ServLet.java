@@ -11,7 +11,6 @@ import java.util.List;
 
 public class ServLet extends HttpServlet{
         private static Logger logger = LoggerFactory.getLogger(ServLet.class);
-
         @Override
         protected void doGet(HttpServletRequest req, HttpServletResponse resp) throws IOException {
             logger.info("get information");
